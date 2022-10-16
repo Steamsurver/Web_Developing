@@ -1,0 +1,173 @@
+body {
+    background-image: url(http://localhost:8383/TradeApp/images/cool-background.png);
+  	font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+	background-size: cover;
+	font-weight: bold;
+	color: rgb(30, 30, 30)!important;
+}
+
+#buttonContainer {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  	border-radius: 8px;
+  	border-style: none;
+  	box-sizing: border-box;
+  	color: rgb(10,10,10)!important;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  	font-size: 14px;
+  	font-weight: 500;
+  	height: 3rem;
+  	padding: 0 1.6rem;
+  	text-align: center;
+  	text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  	transition: all .5s;
+  	user-select: none;
+  	-webkit-user-select: none;
+  	touch-action: manipulation;
+  	border: solid;
+  	border-width:2px;
+  	border-color: rgb(33, 16, 78);
+   }
+   				
+#buttonContainer:hover {
+  	box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+ 	transition-duration: .1s;
+}
+
+
+.buttonBuy{
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  	border-radius: 8px;
+  	border-style: none;
+  	box-sizing: border-box;
+  	color: rgb(10,10,10)!important;
+  	cursor: pointer;
+  	flex-shrink: 0;
+  	font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  	font-size: 14px;
+  	font-weight: 500;
+  	height: 3rem;
+  	padding: 0 1.6rem;
+  	text-align: center;
+  	text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  	transition: all .5s;
+  	user-select: none;
+  	-webkit-user-select: none;
+  	touch-action: manipulation;
+  	border: solid;
+  	border-width:2px;
+  	border-color: rgb(33, 16, 78);
+   }
+   				
+.buttonBuy:hover {
+  	box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+ 	transition-duration: .1s;
+}
+
+
+#styleCatalogElement{
+	border: solid;
+	border-color: #7cabf2;
+  	border-width: 2px;
+  	width:  40vw;
+  	height:  25%;
+  	margin: 15px 30% 15px;
+  	background-color: #2d76e3;
+  	border-radius: 25px;
+  	font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+}
+
+#styleCatalogName{
+	position: relative;
+	font-size: 1.5vw;
+	left: 1vw;
+	top: 8%;
+}
+
+#styleCatalogCost{
+	position: relative;
+	font-size: 1.5vw;
+	left: 1vw;
+	top: 10%;
+}
+	
+#styleCatalogImg{
+	position: relative;
+	left: 27vw;
+	bottom: 2.5vw;
+	border: solid;
+	border-color: #7cabf2;
+  	border-width: 1px;
+  	border-radius: 10px;
+  	width: 27%;
+  	height: 50%;
+}
+
+#styleCatalogDesc{ position: relative;
+	font-size: 0.8vw;
+	left: 1vw;
+	bottom: 5vw;
+	width: 25vw;
+}
+
+
+input[type="text"] {
+  	border-radius: 3px;
+  	background-color:rgba(0,0,0,0.1);
+  	border: none;
+    border-bottom: 2px solid #585858;
+    outline: none;
+}
+
+
+#dropdownContainer {
+    position: absolute;
+    display: inline-block;
+    top: 1vw;
+    left: 1vw;
+}
+
+#userImg {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+#dropdownContent {
+    display: none;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+    bottom: 3.5vw; 
+    left: 4vw;
+}
+
+#dropdownContentLine {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdownContainer:hover #dropdownContent{display: block;}
+
+
+#dropdownContentLineMessage {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#contentMessage {
+	
+    display: none;
+    border-top: 2px solid #585858;
+    position: relative;
+    z-index: 1;
+    padding: 12px 16px;
+}
+
